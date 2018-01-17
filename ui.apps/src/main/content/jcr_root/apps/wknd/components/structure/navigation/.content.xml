@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root 
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Component"
+    jcr:description="Collects a list of pages to display in a navigation tree."
+    jcr:title="Navigation"
+    componentGroup="WKND.Structure"
+    sling:resourceSuperType="core/wcm/components/navigation/v1/navigation"/>
