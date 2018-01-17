@@ -139,6 +139,9 @@
                 <configuration>
                     <group>aem-guides/wknd</group>
                     <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
+                    <properties>
+             			<acHandling>merge_preserve</acHandling>
+        			</properties>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
