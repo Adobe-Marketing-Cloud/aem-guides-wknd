@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
-    jcr:primaryType="cq:Page"/>
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_655805132090905
+                        jcr:lastModified="{Date}2018-01-20T13:48:54.270-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Structure"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_655805132090905>
+                    <policy_655881192879443
+                        jcr:lastModified="{Date}2018-01-20T13:50:13.018-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_655881192879443>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>
