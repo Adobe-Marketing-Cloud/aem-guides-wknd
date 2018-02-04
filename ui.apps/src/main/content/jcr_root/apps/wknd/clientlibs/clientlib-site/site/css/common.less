@@ -1,0 +1,24 @@
+/*
+ *
+ * Common CSS Styles used by various components
+ */
+ 
+
+ .full-width  {
+	margin: ~"0px calc((100vw - 100%) / -2)";
+    width: 100vw !important;
+    
+    .aem-Grid {
+  		.container-fixed();
+
+  		@media (min-width: @screen-sm-min) {
+    		width: @container-sm;
+  		}
+  		@media (min-width: @screen-md-min) {
+    		width: @container-md;
+  		}
+  		@media (min-width: @screen-lg-min) {
+    		width: @container-lg;
+  		}
+	}
+}
