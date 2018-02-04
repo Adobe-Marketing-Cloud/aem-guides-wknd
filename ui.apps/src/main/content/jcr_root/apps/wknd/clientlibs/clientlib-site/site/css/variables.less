@@ -4,6 +4,7 @@
 
 //@import (reference) "/apps/wknd/clientlibs/vendor/bootstrap/src/less/variables.less";
 
+
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
@@ -881,3 +882,21 @@
 @dl-horizontal-breakpoint:    @grid-float-breakpoint;
 //** Horizontal line color.
 @hr-border:                   @gray-lighter;
+
+
+//WKND Mixins
+
+.container-content() {
+	.container-fixed();
+
+  		@media (min-width: @screen-sm-min) {
+    		width: @container-sm;
+  		}
+  		@media (min-width: @screen-md-min) {
+    		width: @container-md;
+  		}
+  		@media (min-width: @screen-lg-min) {
+    		width: @container-lg;
+  		}
+	
+}
