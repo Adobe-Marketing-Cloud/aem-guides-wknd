@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a09e0e98-8419-44ca-a6ef-52e154e7c44d">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="wknd/en/los-angeles/chris-brignola-7766.jpg"
+        jcr:lastModified="{Date}2017-12-21T14:40:43.910-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-21T14:40:43.133-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}49.43055725097656"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}74.13888549804688"
+            dam:Progressive="no"
+            dam:sha1="a1ada4964672a139b33d9702cc7122bf44ff2733"
+            dam:size="{Long}2011406"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}3559"
+            tiff:ImageWidth="{Long}5338"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}3"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}3"
+                lastUsed="{Date}2017-12-21T16:09:57.674-05:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-01-20T15:07:59.553-05:00"
+        cq:lastModified="{Date}2018-02-04T14:02:53.398-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -27,6 +27,106 @@
                     sling:resourceType="wknd/components/content/text"
                     text="&lt;p>Hello World!&lt;/p>&#xa;"
                     textIsRich="true"/>
+                <text_1334675983
+                    jcr:created="{Date}2018-02-04T13:46:20.586-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-04T13:51:44.295-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus sed turpis tincidunt id aliquet. Tellus in hac habitasse platea. Sollicitudin aliquam ultrices sagittis orci a. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Sit amet dictum sit amet justo donec enim diam. Ultrices gravida dictum fusce ut. Gravida neque convallis a cras semper auctor neque vitae tempus. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Lacus viverra vitae congue eu consequat ac felis donec. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Vitae proin sagittis nisl rhoncus mattis. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </text_1334675983>
+                <text_568628066
+                    jcr:created="{Date}2018-02-04T13:47:19.954-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-04T13:51:51.312-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Sit amet aliquam id diam maecenas ultricies. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Turpis cursus in hac habitasse platea dictumst. Morbi enim nunc faucibus a pellentesque sit. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam. Mi bibendum neque egestas congue quisque egestas diam. Integer vitae justo eget magna. Id interdum velit laoreet id donec ultrices tincidunt. Enim facilisis gravida neque convallis a cras semper auctor. A erat nam at lectus urna duis. Commodo odio aenean sed adipiscing diam. Tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra. Vitae semper quis lectus nulla. Tincidunt dui ut ornare lectus sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </text_568628066>
+                <image
+                    jcr:created="{Date}2018-02-04T13:53:44.464-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-04T13:56:17.360-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    alt="Skate Park"
+                    altValueFromDAM="true"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd/en/los-angeles/chris-brignola-7766.jpg"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </image>
+                <image_copy
+                    jcr:created="{Date}2018-02-04T13:53:44.464-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-04T13:56:26.281-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    altValueFromDAM="true"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd/en/los-angeles/robson-hatsukami-morgan-280159.jpg"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </image_copy>
+                <image_copy_1222150744
+                    jcr:created="{Date}2018-02-04T13:53:44.464-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-04T13:56:31.142-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    altValueFromDAM="true"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd/en/los-angeles/julien-lanoy-355982.jpg"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </image_copy_1222150744>
             </responsivegrid>
         </root>
     </jcr:content>
