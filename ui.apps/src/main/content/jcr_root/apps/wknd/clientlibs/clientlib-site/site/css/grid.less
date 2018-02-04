@@ -1,5 +1,7 @@
 
-@import (once) "/etc/clientlibs/wcm/foundation/grid/grid_base.less";
+
+@gridpath : "/etc/clientlibs/wcm/foundation/grid";
+@import "@{gridpath}/grid_base.less";
  
 /* maximum amount of grid cells to be provided */
 @max_col: 12;
@@ -18,7 +20,7 @@
 }
 
 /* tablet breakpoint */
-@media (min-width: @screen-sm-min + 1) and (max-width: @screen-lg-min) {
+@media (min-width: (@screen-sm-min + 1)) and (max-width: @screen-lg-min) {
     .aem-Grid {
         .generate-grid(tablet, @max_col);
     }

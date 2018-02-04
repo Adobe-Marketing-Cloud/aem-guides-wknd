@@ -16,4 +16,4 @@
         wkndheader.removeClass("navbar-sticky");
     }
 });
-}('.wknd-site',jQuery));
+}('.root',jQuery));
