@@ -45,8 +45,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <title jcr:primaryType="nt:unstructured">
                     <policy_1517864189042
-                        cq:styleDefaultClasses="cmp-title--default"
-                        jcr:lastModified="{Date}2018-02-05T15:59:01.658-05:00"
+                        jcr:lastModified="{Date}2018-02-05T17:21:37.014-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Title - Article"
@@ -60,7 +59,7 @@
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleClasses="cmp-title--default cmp-title--underline"
+                                        cq:styleClasses="cmp-title--underline"
                                         cq:styleId="1517864241616"
                                         cq:styleLabel="Underline"
                                         jcr:primaryType="nt:unstructured"/>
