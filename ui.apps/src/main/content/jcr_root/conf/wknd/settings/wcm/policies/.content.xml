@@ -17,16 +17,59 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_655805132090905>
                     <policy_655881192879443
-                        jcr:lastModified="{Date}2018-01-20T13:50:13.018-05:00"
+                        cq:styleDefaultClasses="cmp-layout-container--article"
+                        jcr:lastModified="{Date}2018-02-05T15:43:26.198-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Content"
+                        jcr:title="WKND Layout Container - Article Body"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1517863342619
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="[image/gif,image/jpeg,image/png,image/webp,image/tiff]"
+                                    droptarget="image"
+                                    resourceType="wknd/components/content/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
                     </policy_655881192879443>
                 </responsivegrid>
             </components>
         </foundation>
     </wcm>
+    <wknd jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <title jcr:primaryType="nt:unstructured">
+                    <policy_1517864189042
+                        cq:styleDefaultClasses="cmp-title--default"
+                        jcr:lastModified="{Date}2018-02-05T15:59:01.658-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Title - Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                        type="h1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Styles"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-title--default cmp-title--underline"
+                                        cq:styleId="1517864241616"
+                                        cq:styleLabel="Underline"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1517864189042>
+                </title>
+            </content>
+        </components>
+    </wknd>
 </jcr:root>
