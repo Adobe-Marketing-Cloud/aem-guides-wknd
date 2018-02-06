@@ -161,6 +161,39 @@
                         </cq:styleGroups>
                     </policy_1517871601580>
                 </text>
+                <contentfragment jcr:primaryType="nt:unstructured"/>
+                <breadcrumb jcr:primaryType="nt:unstructured"/>
+                <list jcr:primaryType="nt:unstructured">
+                    <policy_1517887018503
+                        jcr:lastModified="{Date}2018-02-05T23:32:42.085-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND List - Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        dateFormat="EEEE, d MMM y"
+                        disableChildren="false"
+                        disableSearch="false"
+                        disableStatic="false"
+                        disableTags="false"
+                        linkItems="false"
+                        showDescription="false"
+                        showModificationDate="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Styles"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-list--upnext"
+                                        cq:styleId="1517887145177"
+                                        cq:styleLabel="Up Next"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1517887018503>
+                </list>
             </content>
         </components>
     </wknd>
