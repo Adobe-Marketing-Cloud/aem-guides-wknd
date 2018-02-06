@@ -8,5 +8,5 @@
         jcr:title="WKND"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/wknd/en"/>
-    <first-article/>
+    <en/>
 </jcr:root>

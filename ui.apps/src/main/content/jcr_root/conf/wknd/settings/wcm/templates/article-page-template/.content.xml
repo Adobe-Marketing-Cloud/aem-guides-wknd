@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2018-01-20T13:50:47.823-05:00"
+        cq:lastModified="{Date}2018-02-06T17:12:24.937-05:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/wknd/settings/wcm/template-types/empty-page"
         jcr:description="Template for creating articles for the WKND Site."
