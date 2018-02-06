@@ -17,7 +17,7 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_655805132090905>
                     <policy_655881192879443
-                        jcr:lastModified="{Date}2018-02-05T20:29:02.790-05:00"
+                        jcr:lastModified="{Date}2018-02-06T17:12:24.932-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Layout Container - Article Body"
@@ -26,15 +26,24 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
-                                <mapping_1517863342619
+                                <mapping_1517955122757
                                     jcr:primaryType="nt:unstructured"
                                     assetGroup="media"
-                                    assetMimetype="[image/gif,image/jpeg,image/png,image/webp,image/tiff]"
+                                    assetMimetype="image/.*"
                                     droptarget="image"
                                     resourceType="wknd/components/content/image"/>
                             </assetToComponentMapping>
                         </cq:authoring>
                     </policy_655881192879443>
+                    <policy_203475578183982
+                        jcr:lastModified="{Date}2018-02-06T17:07:39.810-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Layout Container - Article Sidebar"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_203475578183982>
                 </responsivegrid>
             </components>
         </foundation>
