@@ -13,14 +13,14 @@
 }
 
 /* phone breakpoint */
-@media (max-width: @screen-sm-min) {
+@media (max-width: (@screen-sm-min - 1)) {
     .aem-Grid {
         .generate-grid(phone, @max_col);
     }
 }
 
 /* tablet breakpoint */
-@media (min-width: (@screen-sm-min + 1)) and (max-width: @screen-lg-min) {
+@media (min-width: @screen-sm-min) and (max-width: @screen-lg-min) {
     .aem-Grid {
         .generate-grid(tablet, @max_col);
     }
