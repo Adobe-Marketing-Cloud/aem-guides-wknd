@@ -1,0 +1,51 @@
+/* WKND Breadcrumb Default styles */
+
+.cmp-breadcrumb {
+
+ .cmp-breadcrumb__list {
+	  padding: @breadcrumb-padding-vertical @breadcrumb-padding-horizontal 0px 0px;
+	  margin-bottom: 0px;
+	  margin-top:30px;
+	  list-style: none;
+	  background-color: @breadcrumb-bg;
+	  border-radius: @border-radius-base;
+	  font-size: @font-size-small;
+    
+    @media (max-width: @screen-md) {
+        margin-top: 0px;
+    } 
+    @media (max-width: @screen-xs) {
+        font-size: @font-size-small;
+    }
+}
+     
+ .cmp-breadcrumb__item {
+    display: inline-block;
+    padding:10px 5px;
+    text-transform: uppercase;
+      
+    &:before {
+      font-family: 'Wkndicons';
+      content: "\e80d";
+      color: @brand-primary;
+      padding-right: 5px;
+    }
+    
+    &:first-child {
+    	padding-left: 0;
+    	&:before {
+    		content: none;
+    	}
+    }
+  }
+  
+  .cmp-breadcrumb__item-link {
+  	 color:  @breadcrumb-color;
+     text-decoration:none;
+     font-weight: 600;
+     &:first {
+         padding-left: 0px;
+     }
+  }
+  
+ }  
