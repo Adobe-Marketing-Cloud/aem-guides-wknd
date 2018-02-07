@@ -127,6 +127,7 @@
                     <excludes>
                         <exclude>**/extensions/**/*.js</exclude>
                         <exclude>**/vendor/**/*.js</exclude>
+                        <exclude>**/util.js</exclude>
                     </excludes>
                 </configuration>
             </plugin>
