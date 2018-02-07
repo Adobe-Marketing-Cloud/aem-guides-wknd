@@ -8,12 +8,12 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_655805132090905
-                        jcr:lastModified="{Date}2018-01-20T13:48:54.270-05:00"
+                        jcr:lastModified="{Date}2018-02-07T15:02:39.815-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,group:WKND.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_655805132090905>
                     <policy_655881192879443
@@ -44,6 +44,25 @@
                         components="[/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_203475578183982>
+                    <policy_232014041553082
+                        cq:styleDefaultClasses="cmp-layout-container--footer full-width"
+                        jcr:lastModified="{Date}2018-02-07T14:18:30.728-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Layout Container - Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,group:WKND.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_232014041553082>
+                    <policy_242219854159473
+                        jcr:lastModified="{Date}2018-02-07T14:17:51.972-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Layout Container - Landing Body"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_242219854159473>
                 </responsivegrid>
             </components>
         </foundation>
@@ -204,6 +223,61 @@
                     </policy_1517887018503>
                 </list>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <navigation jcr:primaryType="nt:unstructured">
+                    <policy_1517972603822
+                        cq:styleDefaultClasses="cmp-navigation--footer"
+                        jcr:lastModified="{Date}2018-02-07T14:18:44.971-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1517972603822>
+                    <policy_242352059801938
+                        jcr:lastModified="{Date}2018-02-07T14:34:58.328-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_242352059801938>
+                </navigation>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1517972628569
+                        jcr:lastModified="{Date}2018-02-07T14:37:32.913-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Search - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        resultsSize="10"
+                        searchRoot="/content/wknd/en"
+                        searchTermMinimumLength="3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1517972628569>
+                </search>
+                <header jcr:primaryType="nt:unstructured">
+                    <policy_1518032716844
+                        jcr:lastModified="{Date}2018-02-07T14:45:52.719-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        rootPath="/content/wknd/en">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1518032716844>
+                </header>
+            </structure>
         </components>
     </wknd>
+    
+    
 </jcr:root>

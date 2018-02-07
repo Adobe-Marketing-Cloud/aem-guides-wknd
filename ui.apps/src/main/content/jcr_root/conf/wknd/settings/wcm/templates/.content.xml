@@ -4,4 +4,5 @@
     jcr:primaryType="cq:Page">
     <rep:policy/>
     <article-page-template/>
+    <landing-template/>
 </jcr:root>
