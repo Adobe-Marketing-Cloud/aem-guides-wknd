@@ -1,0 +1,58 @@
+/* WKND Navigation Footer Style */
+
+.cmp-navigation--footer {
+	
+	  .cmp-navigation {
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin-top: 3em;
+        
+        .cmp-navigation__group {
+            
+            margin-top:2em;
+            margin-left:2em;
+            margin-right: 2em;
+        
+          .cmp-navigation__item {
+            
+            float:left;
+            display: block;
+            
+            .cmp-navigation__item-link {
+                font-size: @font-size-xsmall;
+                text-transform: uppercase;
+                color: @navbar-inverse-color;
+                height:10em;
+                width: 10em;
+                text-align: center;
+                text-decoration: none;
+                padding-top: 4em;
+                float:left;
+                
+                &:hover,
+                &:focus {
+                    background-color: @brand-primary;
+                    color: @text-color;
+                }
+            
+                
+            }
+            
+        }
+        
+        li.cmp-navigation__item--active .cmp-navigation__item-link {
+            background-color: @navbar-inverse-bg;
+            color: @brand-primary;
+        }
+    
+         @media (max-width: @grid-float-breakpoint) {
+            margin-top: 2em;    
+        }
+    }
+    
+    } 
+    
+		
+	
+}

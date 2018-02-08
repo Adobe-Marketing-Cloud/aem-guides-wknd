@@ -1,0 +1,47 @@
+/* WKND Navigation Header styles */
+
+@mobile-nav-bg-color: #000;
+@mobile-nav-link-color: #fff;
+	
+.cmp-navigation--header {
+	
+	float:right;
+	padding-top: .25em;
+	min-width: 100px;
+	
+	.cmp-navigation {
+		float:right;
+		
+		.cmp-navigation__group {
+			list-style: none;
+		}
+		
+		.cmp-navigation__item {
+			display: block;
+			float: left;
+		}
+		
+		.cmp-navigation__item-link {
+			color: @text-color;
+    		font-size: @font-size-medium;
+    		text-transform: uppercase;
+    		font-weight: bolder;
+    		padding: 15px 17px;
+    		text-decoration: none;
+    		
+    		&:hover,
+      		&:focus {
+        		background-color: @brand-primary;
+      		}
+		}
+		
+		.cmp-navigation__item--active .cmp-navigation__item-link {
+			background-color: @brand-primary;
+		}
+	}
+	
+	@media (max-width: @grid-float-breakpoint) {
+		
+		display:none;
+	}	
+}
