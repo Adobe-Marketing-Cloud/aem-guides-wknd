@@ -1,5 +1,5 @@
 #base=.
 
-site/js/util.js
+site/js/vendor/util.js
 components/header/header.js
 components/navigation/navigation.js
