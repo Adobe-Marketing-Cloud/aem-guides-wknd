@@ -11,7 +11,7 @@
             <responsivegrid
                 jcr:created="{Date}2018-02-07T14:16:32.256-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-02-07T14:17:55.147-05:00"
+                jcr:lastModified="{Date}2018-02-08T00:12:41.635-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
