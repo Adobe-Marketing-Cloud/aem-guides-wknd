@@ -1,0 +1,64 @@
+/* WKND Card - position.less*/
+
+.cmp-card--left {
+	.cmp-card {
+		
+		.cmp-card__content {
+			text-align: left;
+			width: 60%;
+			left: 0;
+		}
+		
+		@media (max-width: (@screen-sm-min + 1)) {
+			.cmp-card__content {
+				width: 100%;
+				text-align:center;
+			}
+		}
+	}
+}
+
+.cmp-card--center {	
+	.cmp-card {
+		
+		.cmp-card__content {
+			text-align: center;
+		}
+	}
+}
+
+.cmp-card--right {
+	.cmp-card {
+		
+		.cmp-card__content {
+			text-align: right;
+			width:60%;
+			right:0;
+		}
+		
+		@media (max-width: (@screen-sm-min + 1)) {
+			.cmp-card__content {
+				width: 100%;
+				text-align:center;
+			}
+		}
+	}
+}
+
+.cmp-card--top {
+	.cmp-card {	
+		.cmp-card__content {
+			top: 0;
+			bottom:unset;
+		}
+	}
+}
+
+.cmp-card--bottom {
+	.cmp-card {	
+		.cmp-card__content {
+			bottom: 0;
+			top:unset;
+		}
+	}
+}
