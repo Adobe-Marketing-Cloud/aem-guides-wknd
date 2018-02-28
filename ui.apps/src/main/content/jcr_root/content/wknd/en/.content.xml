@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-02-08T00:11:53.837-05:00"
+        cq:lastModified="{Date}2018-02-27T17:24:03.703-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-template"
         jcr:primaryType="cq:PageContent"
@@ -18,31 +18,131 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <title
-                    jcr:created="{Date}2018-02-07T23:45:31.042-05:00"
+                <card
+                    cq:styleIds="[1519768011926]"
+                    jcr:created="{Date}2018-02-27T17:03:38.620-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-02-07T23:45:31.042-05:00"
+                    jcr:lastModified="{Date}2018-02-27T17:19:45.892-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/title"/>
-                <image
-                    jcr:created="{Date}2018-02-07T23:46:34.183-05:00"
+                    sling:resourceType="wknd/components/content/card"
+                    articlePath="/content/wknd/en/restaurants/best-roasters"
+                    hideDescription="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </card>
+                <card_1238622915
+                    cq:styleIds="[1519767723104,1519768011926,1519768247726]"
+                    jcr:created="{Date}2018-02-27T17:05:04.635-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-02-07T23:46:40.972-05:00"
+                    jcr:lastModified="{Date}2018-02-27T17:19:37.893-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
-                    fileReference="/content/dam/wknd/en/los-angeles/chris-brignola-7766.jpg"/>
-                <title_749617439
-                    cq:styleIds="[1517864241616]"
-                    jcr:created="{Date}2018-02-07T23:45:40.892-05:00"
+                    sling:resourceType="wknd/components/content/card"
+                    articlePath="/content/wknd/en/music/exhibitions"
+                    hideDescription="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </card_1238622915>
+                <card_24035361
+                    cq:styleIds="[1519768247726,1519768284030]"
+                    jcr:created="{Date}2018-02-27T17:05:22.644-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-02-07T23:46:25.419-05:00"
+                    jcr:lastModified="{Date}2018-02-27T17:20:16.727-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Welcome to the WKND"
-                    sling:resourceType="wknd/components/content/title"
-                    type="h2"/>
+                    sling:resourceType="wknd/components/content/card"
+                    articlePath="/content/wknd/en/art/exhibitions"
+                    hideDescription="true"
+                    titleOverride="Photography">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </card_24035361>
+                <card_25394737
+                    cq:styleIds="[1519768284030]"
+                    jcr:created="{Date}2018-02-27T17:05:42.894-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-27T17:20:50.446-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/card"
+                    articlePath="/content/wknd/en/shopping/office"
+                    hideDescription="true"
+                    titleOverride="Office">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </card_25394737>
+                <card_1025865573
+                    cq:styleIds="[1519767723104,1519768000815,1519768247726]"
+                    jcr:created="{Date}2018-02-27T17:06:20.416-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-27T17:24:03.700-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/card"
+                    articlePath="/content/wknd/en/sport/mountain-bike-routes"
+                    hideDescription="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </card_1025865573>
+                <card_1312645076
+                    cq:styleIds="[1519768247726,1519767723104]"
+                    jcr:created="{Date}2018-02-27T17:06:56.082-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-27T17:21:49.315-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/card"
+                    articlePath="/content/wknd/en/art/vintage-cars"
+                    hideDescription="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </card_1312645076>
             </responsivegrid>
         </root>
     </jcr:content>
