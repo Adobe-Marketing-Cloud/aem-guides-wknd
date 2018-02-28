@@ -20,4 +20,6 @@
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
+    <exhibitions/>
+    <vintage-cars/>
 </jcr:root>

@@ -1,0 +1,53 @@
+/* WKND Card - default.less*/
+
+.cmp-card {
+	
+	position: relative;
+	margin-bottom: 1em;
+	
+	.cmp-card__link {
+		display: block;
+	}
+	
+	.cmp-card__wrapper {
+		display: block;
+		width: 100%;
+		background-position: center;
+		height: @card-default-height;
+		background-size:cover;
+		background-color:@light-color;
+	}
+	
+	.cmp-card__content {
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		color: @dark-color;
+		padding-left: 2em;
+		padding-right: 2em;
+		top: 0;
+	}
+	
+	.cmp-card__title {
+		font-family: @font-family-serif;
+	}
+	
+	.cmp-card__description {
+		font-size: @font-size-small;
+		margin-top: 0.25em;
+	}
+	
+	@media (max-width: (@screen-sm-min + 1)) {
+	
+		.cmp-card__wrapper {
+			height: @card-mobile-height;
+		}
+		
+		.cmp-card__description {
+			display: none;	
+		}
+		
+		
+	}
+	
+} 
