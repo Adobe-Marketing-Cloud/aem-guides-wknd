@@ -42,30 +42,34 @@
         <tag>HEAD</tag>
     </scm-->
 
-    <!-- ====================================================================== -->
-    <!-- B U I L D   D E F I N I T I O N                                        -->
-    <!-- ====================================================================== -->
-    <build>
-        <sourceDirectory>src/main/content/jcr_root</sourceDirectory>
-        <resources>
-            <!-- define the resources that will go into the package -->
-            <resource>
-                <directory>${basedir}/src/main/content/jcr_root</directory>
-                <excludes>
-                    <!-- exclude .vlt control files in the package -->
-                    <exclude>**/.vlt</exclude>
-                    <exclude>**/.vltignore</exclude>
-                    <exclude>**/.gitignore</exclude>
-                    <exclude>**/*.iml</exclude>
-                    <exclude>**/.classpath</exclude>
-                    <exclude>**/.project</exclude>
-                    <exclude>**/.settings</exclude>
-                    <exclude>**/.DS_Store</exclude>
-                    <exclude>**/target/**</exclude>
-                    <exclude>**/pom.xml</exclude>
-                </excludes>
-            </resource>
-        </resources>
+<!-- ====================================================================== -->
+<!-- B U I L D   D E F I N I T I O N                                        -->
+<!-- ====================================================================== -->
+<build>
+    <sourceDirectory>src/main/content/jcr_root</sourceDirectory>
+    <resources>
+        <!-- define the resources that will go into the package -->
+        <resource>
+            <directory>${basedir}/src/main/content/jcr_root</directory>
+            <excludes>
+                <!-- exclude .vlt control files in the package -->
+                <exclude>**/.vlt</exclude>
+                <exclude>**/.vltignore</exclude>
+                <exclude>**/.gitignore</exclude>
+                <exclude>**/*.iml</exclude>
+                <exclude>**/.classpath</exclude>
+                <exclude>**/.project</exclude>
+                <exclude>**/.settings</exclude>
+                <exclude>**/.DS_Store</exclude>
+                <exclude>**/target/**</exclude>
+                <exclude>**/pom.xml</exclude>
+            </excludes>
+        </resource>
+        <resource>
+            <directory>${basedir}/src/main/content/META-INF/vault/definition</directory>
+            <targetPath>../vault-work/META-INF/vault/definition</targetPath>
+        </resource>
+    </resources>
         <plugins>
             <!--
                 we want to keep some of the META-INF files and not configure

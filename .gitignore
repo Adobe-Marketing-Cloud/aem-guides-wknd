@@ -16,6 +16,7 @@ local.properties
 
 # Eclipse Core
 .project
+MANIFEST.MF
 
 # External tool builders
 .externalToolBuilders/
