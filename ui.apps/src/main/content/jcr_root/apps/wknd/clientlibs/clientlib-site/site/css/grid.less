@@ -1,0 +1,46 @@
+
+/* 6.3 Path to Responsive Grid */
+/* @gridpath : "/etc/clientlibs/wcm/foundation/grid"; */
+
+
+/* 6.4 Path to Responsive Grid */
+@gridpath : "/libs/wcm/foundation/clientlibs/grid";
+
+@import "@{gridpath}/grid_base.less";
+ 
+/* maximum amount of grid cells to be provided */
+@max_col: 12;
+ 
+/* default breakpoint */
+.aem-Grid {
+    .generate-grid(default, @max_col);
+    width: auto;
+}
+
+/* phone breakpoint */
+@media (max-width: @screen-sm-min) {
+    .aem-Grid {
+        .generate-grid(phone, @max_col);
+    }
+}
+
+/* tablet breakpoint */
+@media (min-width: (@screen-sm-min + 1)) and (max-width: @screen-lg-min) {
+    .aem-Grid {
+        .generate-grid(tablet, @max_col);
+    }
+}
+
+.aem-GridColumn {
+    padding: 0 @grid-gutter-width/2;
+}
+
+.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > .aem-GridColumn.aem-GridColumn--default--12 {
+    padding-left: 0;
+    padding-right: 0;
+}
