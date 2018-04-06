@@ -9,10 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2018-04-05T18:05:29.373-04:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:WKND.Content,/apps/wknd/components/form/container]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,/apps/wknd/components/form/container,group:WKND.Structure]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -26,9 +28,32 @@
                             </assetToComponentMapping>
                         </cq:authoring>
                         <jcr:content
+                            cq:lastReplicated="{Date}2018-04-05T13:27:10.917-04:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
+                    <policy_27937558828510
+                        jcr:lastModified="{Date}2018-04-05T18:10:21.131-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1522966073288
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="wknd/components/content/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                    </policy_27937558828510>
                 </responsivegrid>
             </components>
         </foundation>
@@ -42,7 +67,12 @@
                         jcr:title="WKND Site Form"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/apps/wknd/components/form/button,/apps/wknd/components/form/hidden,/apps/wknd/components/form/options,/apps/wknd/components/form/text]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-04-05T13:27:10.917-04:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </form-container>
                 </container>
             </form>
