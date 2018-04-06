@@ -20,5 +20,5 @@
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
-    <first-article/>
+    <sports/>
 </jcr:root>
