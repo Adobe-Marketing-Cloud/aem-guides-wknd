@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="179c2b3b-2d22-4335-83ba-442e741113fd">
+    <jcr:content
+        cq:name="sasha-instagram-com-sanfrancisco-250033.jpg"
+        cq:parentPath="/content/dam/wknd/en/los-angeles"
+        dam:assetState="processed"
+        dam:relativePath="wknd/en/los-angeles/sasha-instagram-com-sanfrancisco-250033.jpg"
+        jcr:lastModified="{Date}2018-04-06T09:12:37.935-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-04-06T09:12:36.308-04:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}22.16666603088379"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}33.33333206176758"
+            dam:Progressive="no"
+            dam:sha1="e3e8c60c033156c25f606e734839ebedf3ab73ab"
+            dam:size="{Long}1252557"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-02-04T13:44:36.941-05:00"
+            jcr:lastModified="{Date}2018-04-06T09:12:31.697-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1596"
+            tiff:ImageWidth="{Long}2400"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-01-04T15:54:42.389-05:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>
