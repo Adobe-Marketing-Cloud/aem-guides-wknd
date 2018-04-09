@@ -477,18 +477,33 @@
                 <scope>provided</scope>
             </dependency>
             <!-- Adobe AEM Dependencies -->
+			<!-- AEM 6.4 Uber Jar -->
+			<dependency>
+			    <groupId>com.adobe.aem</groupId>
+			    <artifactId>uber-jar</artifactId>
+			    <version>6.4.0</version>
+			    <classifier>apis</classifier>
+			    <scope>provided</scope>
+			</dependency>
+            <!-- AEM 6.3 SP2 Uber Jar
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>6.3.0</version>
+                <version>6.3.2</version>
                 <classifier>apis</classifier>
                 <scope>provided</scope>
-            </dependency>
+            </dependency> -->
             <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.all</artifactId>
                 <type>zip</type>
                 <version>2.0.4</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.core</artifactId>
+                <version>2.0.4</version>
+                <scope>provided</scope>
             </dependency>
             <!-- Apache Sling Dependencies -->
             <dependency>
