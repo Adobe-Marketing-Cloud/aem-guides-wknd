@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/julien-lanoy-355982.jpg"
-        jcr:lastModified="{Date}2018-04-06T09:12:35.833-04:00"
+        jcr:lastModified="{Date}2018-04-09T15:03:50.383-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-06T09:12:33.383-04:00"
+            dam:extracted="{Date}2018-04-09T15:03:41.035-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,25 +24,16 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}83.33333587646484"
             dam:Progressive="no"
-            dam:sha1="ae25dfe10145448b3825fd0e6e89efbb234dfc25"
+            dam:sha1="51012af27bf63156907679b5a960d6366f2a5c8e"
             dam:size="{Long}3506804"
             dc:format="image/jpeg"
-            dc:modified="{Date}2018-02-04T13:44:37.808-05:00"
-            jcr:lastModified="{Date}2018-04-06T09:12:32.579-04:00"
+            dc:modified="{Date}2018-02-27T12:45:08.829-05:00"
+            jcr:lastModified="{Date}2018-04-09T15:03:40.149-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}4000"
             tiff:ImageWidth="{Long}6000"/>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2018-04-06T09:14:47.450-04:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>

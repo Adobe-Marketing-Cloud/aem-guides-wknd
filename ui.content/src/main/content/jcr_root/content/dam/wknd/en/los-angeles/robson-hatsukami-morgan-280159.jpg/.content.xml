@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/robson-hatsukami-morgan-280159.jpg"
-        jcr:lastModified="{Date}2018-04-06T09:12:38.576-04:00"
+        jcr:lastModified="{Date}2018-04-09T15:03:51.801-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-06T09:12:36.345-04:00"
+            dam:extracted="{Date}2018-04-09T15:03:49.757-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,11 +24,11 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}49.27777862548828"
             dam:Progressive="no"
-            dam:sha1="85c7bd1940f80cc0727e9456675643e3d8881462"
+            dam:sha1="e744337f9a37f78d7d0028f9568745c5594ee5f0"
             dam:size="{Long}929028"
             dc:format="image/jpeg"
-            dc:modified="{Date}2018-02-04T13:44:40.049-05:00"
-            jcr:lastModified="{Date}2018-04-06T09:12:34.723-04:00"
+            dc:modified="{Date}2018-02-27T12:45:05.707-05:00"
+            jcr:lastModified="{Date}2018-04-09T15:03:48.092-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -36,13 +36,13 @@
             tiff:ImageWidth="{Long}3548"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}2"
+            dam:score="{Long}1"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}2"
-                lastUsed="{Date}2018-04-06T09:14:40.279-04:00"/>
+                count="{Long}1"
+                lastUsed="{Date}2018-01-04T15:44:12.377-05:00"/>
         </usages>
     </jcr:content>
 </jcr:root>
