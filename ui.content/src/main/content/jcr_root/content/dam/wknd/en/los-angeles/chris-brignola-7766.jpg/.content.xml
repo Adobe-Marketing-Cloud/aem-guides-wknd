@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/chris-brignola-7766.jpg"
-        jcr:lastModified="{Date}2018-04-06T09:12:39.046-04:00"
+        jcr:lastModified="{Date}2018-04-09T15:03:52.290-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-06T09:12:37.135-04:00"
+            dam:extracted="{Date}2018-04-09T15:03:51.010-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,11 +24,11 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}74.13888549804688"
             dam:Progressive="no"
-            dam:sha1="1d1a3a1c09b5e905c817ef925e7d08ab09073f11"
+            dam:sha1="6031bfe973411616e07d1ed45f3f1b75b7e5ef74"
             dam:size="{Long}2014400"
             dc:format="image/jpeg"
-            dc:modified="{Date}2018-02-04T13:44:38.852-05:00"
-            jcr:lastModified="{Date}2018-04-06T09:12:34.057-04:00"
+            dc:modified="{Date}2018-02-27T12:45:05.312-05:00"
+            jcr:lastModified="{Date}2018-04-09T15:03:42.180-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -36,13 +36,13 @@
             tiff:ImageWidth="{Long}5338"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}4"
+            dam:score="{Long}3"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}4"
-                lastUsed="{Date}2018-04-06T09:14:34.440-04:00"/>
+                count="{Long}3"
+                lastUsed="{Date}2017-12-21T16:09:57.674-05:00"/>
         </usages>
     </jcr:content>
 </jcr:root>
