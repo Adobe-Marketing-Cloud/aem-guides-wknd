@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-02-27T13:14:49.337-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:description="Update your home office with some new swag. Check out great styles from the local flea market."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Office Supplies"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-01-20T13:49:14.934-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-01-20T13:49:24.257-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragment
+                    jcr:created="{Date}2018-02-06T14:47:55.973-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-06T14:47:55.973-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/contentfragment"
+                    text=""/>
+            </responsivegrid>
+            <image
+                jcr:created="{Date}2018-02-06T14:43:40.927-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-02-17T22:01:06.860-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/content/image"
+                fileReference="/content/dam/wknd/en/los-angeles/bench-accounting-49909.jpg"/>
+            <title
+                jcr:created="{Date}2018-02-06T14:44:25.544-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-02-06T14:44:31.878-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/content/title"/>
+        </root>
+    </jcr:content>
+</jcr:root>
