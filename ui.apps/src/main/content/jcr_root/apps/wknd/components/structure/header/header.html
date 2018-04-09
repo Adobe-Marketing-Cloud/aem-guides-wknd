@@ -4,7 +4,8 @@
   
 <header class="wknd-header">
     <div class="container">
-        <a class="wknd-header-logo" href="#">WKND</a>
-        <h1>${currentPage.title ? currentPage.title : 'header'}</h1>
+        <a class="wknd-header-logo" href="${properties.rootPath || currentStyle.rootPath @ extension='html'}">WKND</a>
+        <div class="cmp-search--header" data-sly-resource="${'search' @ resourceType='wknd/components/structure/search'}"></div>
+        <div class="cmp-navigation--header" id="header-navbar" data-sly-resource="${'navigation' @ resourceType='wknd/components/structure/navigation'}"></div>    
     </div>
 </header>
