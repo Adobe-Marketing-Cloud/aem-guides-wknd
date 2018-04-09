@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Home"
+        jcr:title="Sport"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -20,10 +20,5 @@
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
-    <restaurant/>
-    <bars/>
-    <sport/>
-    <art/>
-    <music/>
-    <shopping/>
+    <la-skateparks/>
 </jcr:root>

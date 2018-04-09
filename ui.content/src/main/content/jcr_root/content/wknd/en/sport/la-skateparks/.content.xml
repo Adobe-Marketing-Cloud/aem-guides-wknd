@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-06T17:08:34.626-04:00"
+        cq:lastModified="{Date}2018-04-06T17:51:56.909-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Ultimate guide to LA skateparks."
+        jcr:uuid="254ee147-d8fe-44ec-93fe-4bbb36e50ce3"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -115,7 +118,7 @@
                     childDepth="1"
                     linkItems="true"
                     listFrom="static"
-                    pages="[/content/wknd/en,/content/wknd/en/sports,/content/wknd/en/sports/la-skateparks]"
+                    pages="[/content/wknd/en,/content/wknd/en/sports,/content/wknd/en/sport/la-skateparks]"
                     showDescription="false"
                     showModificationDate="true"
                     sortOrder="asc"
