@@ -477,22 +477,22 @@
                 <scope>provided</scope>
             </dependency>
             <!-- Adobe AEM Dependencies -->
-			<!-- AEM 6.4 Uber Jar -->
+			<!-- AEM 6.4 Uber Jar 
 			<dependency>
 			    <groupId>com.adobe.aem</groupId>
 			    <artifactId>uber-jar</artifactId>
 			    <version>6.4.0</version>
 			    <classifier>apis</classifier>
 			    <scope>provided</scope>
-			</dependency>
-            <!-- AEM 6.3 SP2 Uber Jar
+			</dependency>-->
+            <!-- AEM 6.3 SP2 Uber Jar -->
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
                 <version>6.3.2</version>
                 <classifier>apis</classifier>
                 <scope>provided</scope>
-            </dependency> -->
+            </dependency>
             <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.all</artifactId>
