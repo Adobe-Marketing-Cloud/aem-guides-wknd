@@ -36,12 +36,20 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <extensions>true</extensions>
+ 				<extensions>true</extensions>  				
                 <configuration>
-			        <instructions>
-			        		<Import-Package>javax.inject;version=0.0.0,*</Import-Package>
+			        <instructions>			        
+			        	<Import-Package>javax.inject;version=0.0.0,*</Import-Package>
 			            <Bundle-SymbolicName>com.adobe.aem.guides.wknd-sites-guide</Bundle-SymbolicName>
 			            <_plugin>org.apache.sling.bnd.models.ModelsScannerPlugin</_plugin>
+			            
+			            
+			            <!-- The following 2 instructions are required to resolve Eclipse m2e errors: https://sling.apache.org/documentation/development/ide-tooling/ide-tooling-incremental-build.html -->
+			            
+			            <!-- Enable processing of OSGI DS component annotations -->
+				        <_dsannotations>*</_dsannotations>
+				        <!-- Enable processing of OSGI metatype annotations -->
+				        <_metatypeannotations>*</_metatypeannotations>
 			        </instructions>
 			    </configuration>
 			    <dependencies>
@@ -50,7 +58,7 @@
 			            <artifactId>org.apache.sling.bnd.models</artifactId>
 			            <version>1.0.0</version>
 			        </dependency>
-			    </dependencies>
+			    </dependencies>			
             </plugin>
         </plugins>
     </build>
@@ -88,8 +96,8 @@
             <classifier>apis</classifier>
         </dependency>
         <dependency>
-        		<groupId>com.adobe.cq</groupId>
-        		<artifactId>core.wcm.components.core</artifactId>
+       		<groupId>com.adobe.cq</groupId>
+       		<artifactId>core.wcm.components.core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.sling</groupId>
@@ -108,8 +116,8 @@
             <artifactId>junit-addons</artifactId>
         </dependency>
        <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-            </dependency>
+           <groupId>org.apache.commons</groupId>
+           <artifactId>commons-lang3</artifactId>
+       </dependency>
     </dependencies>
 </project>

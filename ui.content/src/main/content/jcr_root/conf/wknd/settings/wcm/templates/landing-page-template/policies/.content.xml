@@ -17,10 +17,6 @@
                 <wknd jcr:primaryType="nt:unstructured">
                     <components jcr:primaryType="nt:unstructured">
                         <content jcr:primaryType="nt:unstructured">
-                            <card
-                                cq:policy="wknd/components/content/card/policy_1523298263086"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/core/components/policies/mapping"/>
                         </content>
                     </components>
                 </wknd>

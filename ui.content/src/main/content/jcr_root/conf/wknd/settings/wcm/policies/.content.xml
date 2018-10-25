@@ -2,7 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <rep:policy/>
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
@@ -36,12 +35,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_27937558828510
-                        jcr:lastModified="{Date}2018-04-09T12:42:26.006-04:00"
+                        jcr:lastModified="{Date}2018-10-24T15:31:01.172-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/card,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -240,87 +239,6 @@
                     </policy_1523045554878>
                 </list>
                 <image jcr:primaryType="nt:unstructured"/>
-                <card jcr:primaryType="nt:unstructured">
-                    <policy_1523298263086
-                        jcr:lastModified="{Date}2018-04-09T14:27:04.233-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Card Policy"
-                        sling:resourceType="wcm/core/components/policy/policy">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:styleGroupLabel="Text Alignment"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-card--left"
-                                        cq:styleId="1523298293001"
-                                        cq:styleLabel="Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-card--center"
-                                        cq:styleId="1523298300426"
-                                        cq:styleLabel="Center"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="cmp-card--right"
-                                        cq:styleId="1523298307568"
-                                        cq:styleLabel="Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                            <item1
-                                cq:styleGroupLabel="Text Position"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-card--top"
-                                        cq:styleId="1523298321336"
-                                        cq:styleLabel="Top"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-card--bottom"
-                                        cq:styleId="1523298336993"
-                                        cq:styleLabel="Bottom"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item1>
-                            <item2
-                                cq:styleGroupLabel="Text Color"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-card--default"
-                                        cq:styleId="1523298361008"
-                                        cq:styleLabel="Black"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-card--white"
-                                        cq:styleId="1523298387146"
-                                        cq:styleLabel="White"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item2>
-                            <item3
-                                cq:styleGroupLabel="Size"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-card--default"
-                                        cq:styleId="1523298403199"
-                                        cq:styleLabel="Default"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-card--mini"
-                                        cq:styleId="1523298411901"
-                                        cq:styleLabel="Mini"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item3>
-                        </cq:styleGroups>
-                    </policy_1523298263086>
-                </card>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <navigation jcr:primaryType="nt:unstructured">
@@ -377,4 +295,5 @@
             </structure>
         </components>
     </wknd>
+    <rep:policy/>
 </jcr:root>
