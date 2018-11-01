@@ -42,34 +42,35 @@
         <tag>HEAD</tag>
     </scm-->
 
-<!-- ====================================================================== -->
-<!-- B U I L D   D E F I N I T I O N                                        -->
-<!-- ====================================================================== -->
-<build>
-    <sourceDirectory>src/main/content/jcr_root</sourceDirectory>
-    <resources>
-        <!-- define the resources that will go into the package -->
-        <resource>
-            <directory>${basedir}/src/main/content/jcr_root</directory>
-            <excludes>
-                <!-- exclude .vlt control files in the package -->
-                <exclude>**/.vlt</exclude>
-                <exclude>**/.vltignore</exclude>
-                <exclude>**/.gitignore</exclude>
-                <exclude>**/*.iml</exclude>
-                <exclude>**/.classpath</exclude>
-                <exclude>**/.project</exclude>
-                <exclude>**/.settings</exclude>
-                <exclude>**/.DS_Store</exclude>
-                <exclude>**/target/**</exclude>
-                <exclude>**/pom.xml</exclude>
-            </excludes>
-        </resource>
-        <resource>
-            <directory>${basedir}/src/main/content/META-INF/vault/definition</directory>
-            <targetPath>../vault-work/META-INF/vault/definition</targetPath>
-        </resource>
-    </resources>
+    <!-- ====================================================================== -->
+    <!-- B U I L D   D E F I N I T I O N                                        -->
+    <!-- ====================================================================== -->
+    <build>
+        <sourceDirectory>src/main/content/jcr_root</sourceDirectory>
+        <resources>
+            <!-- define the resources that will go into the package -->
+            <resource>
+                <directory>${basedir}/src/main/content/jcr_root</directory>
+                <excludes>
+                    <!-- exclude .vlt control files in the package -->
+                    <exclude>**/.vlt</exclude>
+                    <exclude>**/.vltignore</exclude>
+                    <exclude>**/.gitignore</exclude>
+                    <exclude>**/*.iml</exclude>
+                    <exclude>**/.classpath</exclude>
+                    <exclude>**/.project</exclude>
+                    <exclude>**/.settings</exclude>
+                    <exclude>**/.DS_Store</exclude>
+                    <exclude>**/target/**</exclude>
+                    <exclude>**/pom.xml</exclude>
+                </excludes>
+            </resource>
+            <!-- added thumbnail -->
+            <resource>
+                <directory>${basedir}/src/main/content/META-INF/vault/definition</directory>
+                <targetPath>../vault-work/META-INF/vault/definition</targetPath>
+            </resource>
+        </resources>
         <plugins>
             <!--
                 we want to keep some of the META-INF files and not configure
@@ -86,17 +87,13 @@
             </plugin>
 
             <!-- ====================================================================== -->
-            <!-- V A U L T   P A C K A G E   P L U G I N                                -->
+            <!-- V A U L T   P A C K A G E   P L U G I N S                              -->
             <!-- ====================================================================== -->
             <plugin>
-                <groupId>com.day.jcr.vault</groupId>
-                <artifactId>content-package-maven-plugin</artifactId>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>filevault-package-maven-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
-                    <verbose>true</verbose>
-                    <failOnError>true</failOnError>
-                    <group>aem-guides/wknd</group>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
@@ -111,6 +108,16 @@
                             <filter>true</filter>
                         </subPackage>
                     </subPackages>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.day.jcr.vault</groupId>
+                <artifactId>content-package-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <verbose>true</verbose>
+                    <failOnError>true</failOnError>
+                    <group>aem-guides/wknd</group>
                 </configuration>
             </plugin>
 
