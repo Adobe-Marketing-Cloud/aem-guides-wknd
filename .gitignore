@@ -77,3 +77,6 @@ buildNumber.properties
 ### IntelliJ ###
 .idea/
 *.iml
+
+### Visual Studio ###
+.vscode
