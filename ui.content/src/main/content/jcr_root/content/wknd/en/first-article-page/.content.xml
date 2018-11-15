@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-11-15T09:41:58.211-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="First Article Page"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-11-15T09:34:01.593-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-15T09:34:14.139-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <breadcrumb
+                    jcr:created="{Date}2018-11-15T09:40:56.332-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-15T09:40:56.332-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/breadcrumb"/>
+                <text
+                    jcr:created="{Date}2018-11-15T09:41:48.710-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-15T09:41:58.209-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Hello World!&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <image
+                    jcr:created="{Date}2018-11-15T09:41:37.698-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-15T09:41:41.595-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/camp-tent.jpg"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
