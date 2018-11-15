@@ -1,0 +1,43 @@
+
+/*
+ * grid_base.less is a file provided by AEM. 
+ * For portability between versions of AEM the file has been copied into WKND project's client library.
+ *
+ * 6.3 Path to Responsive Grid: /etc/clientlibs/wcm/foundation/grid/grid_base.less
+ * 6.4 Path to Responsive Grid:  /libs/wcm/foundation/clientlibs/grid/grid_base.less
+ * 
+ */
+ 
+@import "grid_base.less";
+ 
+/* maximum amount of grid cells to be provided */
+@max_col: 12;
+ 
+/* default breakpoint */
+.aem-Grid {
+    .generate-grid(default, @max_col);
+    width: auto;
+}
+
+/* phone breakpoint */
+@media (max-width: @screen-small) {
+    .aem-Grid {
+        .generate-grid(phone, @max_col);
+    }
+}
+
+/* tablet breakpoint */
+@media (min-width: (@screen-small + 1)) and (max-width: @screen-large) {
+    .aem-Grid {
+        .generate-grid(tablet, @max_col);
+    }
+}
+
+.aem-GridColumn {
+    padding: 0 @gutter-padding;
+}
+
+.responsivegrid.aem-GridColumn {
+	padding-left: 0;
+	padding-right: 0;
+}
