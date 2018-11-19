@@ -230,6 +230,59 @@
                     </policy_1542332327396>
                 </breadcrumb>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <navigation jcr:primaryType="nt:unstructured">
+                    <policy_1542378701633
+                        cq:styleDefaultClasses="cmp-navigation--footer"
+                        jcr:lastModified="{Date}2018-11-16T10:28:04.878-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1542378701633>
+                    <policy_72847494245601
+                        jcr:lastModified="{Date}2018-11-16T15:32:28.669-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_72847494245601>
+                </navigation>
+                <header jcr:primaryType="nt:unstructured">
+                    <policy_1542400170621
+                        jcr:lastModified="{Date}2018-11-16T15:32:21.824-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        rootPath="/content/wknd/en">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1542400170621>
+                </header>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1542400264528
+                        jcr:lastModified="{Date}2018-11-16T15:32:34.780-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Search - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        resultsSize="5"
+                        searchRoot="/content/wknd/en"
+                        searchTermMinimumLength="3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1542400264528>
+                </search>
+            </structure>
         </components>
     </wknd>
     <wcm jcr:primaryType="nt:unstructured">
@@ -303,6 +356,16 @@
                         components="[/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_38114031506136>
+                    <policy_51039436921016
+                        cq:styleDefaultClasses="cmp-layout-container--footer"
+                        jcr:lastModified="{Date}2018-11-16T10:24:49.932-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:WKND.Content,group:WKND.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_51039436921016>
                 </responsivegrid>
             </components>
         </foundation>

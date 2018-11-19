@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-11-15T20:42:21.458-05:00"
+        cq:lastModified="{Date}2018-11-16T15:31:39.736-05:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
@@ -108,6 +108,28 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/core/components/policies/mapping"/>
             </responsivegrid_1422216373>
+            <responsivegrid_499617105
+                cq:policy="wcm/foundation/components/responsivegrid/policy_51039436921016"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <navigation
+                    cq:policy="wknd/components/structure/navigation/policy_1542378701633"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </responsivegrid_499617105>
+            <header
+                cq:policy="wknd/components/structure/header/policy_1542400170621"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <navigation
+                    cq:policy="wknd/components/structure/navigation/policy_72847494245601"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <search
+                    cq:policy="wknd/components/structure/search/policy_1542400264528"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </header>
         </root>
     </jcr:content>
 </jcr:root>

@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2018-11-15T09:37:19.768-05:00"
+        cq:lastModified="{Date}2018-11-16T15:32:01.143-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
@@ -12,12 +12,19 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <header
-                jcr:created="{Date}2018-11-15T09:37:14.249-05:00"
+                jcr:created="{Date}2018-11-16T15:32:01.140-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-11-15T09:37:14.249-05:00"
+                jcr:lastModified="{Date}2018-11-16T15:32:01.140-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/structure/header"/>
+                sling:resourceType="wknd/components/structure/header">
+                <navigation
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/structure/navigation"/>
+                <search
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/structure/search"/>
+            </header>
             <responsivegrid
                 jcr:created="{Date}2018-11-15T09:37:19.766-05:00"
                 jcr:createdBy="admin"
@@ -28,6 +35,22 @@
                 editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </responsivegrid>
+            <responsivegrid_2004236546
+                jcr:created="{Date}2018-11-16T10:24:40.244-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-16T10:24:40.244-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <navigation
+                    jcr:created="{Date}2018-11-16T10:24:54.192-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-16T10:24:54.192-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/structure/navigation"/>
+            </responsivegrid_2004236546>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
