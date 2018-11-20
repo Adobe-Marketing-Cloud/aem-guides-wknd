@@ -15,6 +15,7 @@
  */
 package com.adobe.aem.guides.wknd.core.servlets;
 
+import com.day.cq.commons.jcr.JcrConstants;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.Resource;
@@ -44,13 +45,13 @@ import java.io.IOException;
            })
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
-    private static final long serialVersionUid = 1L;
+    private static final long serialVersionUID = 1L;
 
     @Override
     protected void doGet(final SlingHttpServletRequest req,
             final SlingHttpServletResponse resp) throws ServletException, IOException {
         final Resource resource = req.getResource();
         resp.setContentType("text/plain");
-        resp.getWriter().write("Title = " + resource.adaptTo(ValueMap.class).get("jcr:title"));
+        resp.getWriter().write("Title = " + resource.getValueMap().get(JcrConstants.JCR_TITLE));
     }
 }
