@@ -532,7 +532,7 @@
     			<groupId>com.adobe.cq</groupId>
     			<artifactId>core.wcm.components.extension</artifactId>
     			<type>zip</type>
-    			<version>1.0.8</version>
+    			<version>1.0.6</version>
 			</dependency>
             <!-- Apache Sling Dependencies -->
             <dependency>
@@ -571,7 +571,7 @@
             <dependency>
 		        <groupId>org.apache.commons</groupId>
 		        <artifactId>commons-lang3</artifactId>
-		        <version>3.6</version>
+		        <version>3.5</version>
 		        <scope>provided</scope>
     		</dependency>
 
