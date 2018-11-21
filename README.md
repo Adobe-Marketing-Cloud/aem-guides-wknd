@@ -4,12 +4,13 @@ This is the code companion to a multi-part series on HelpX:
 
 ### [Getting Started with AEM Sites - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html)
 
-1. [Part 1 - Project Setup](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html)
-2. [Part 2 - Creating a Base Page and Template](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part2.html)
-3. [Part 3 - Client-Side Libraries and Responsive Grid](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part3.html)
-4. [Part 4 - Developing with the Style System](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part4.html)
-5. [Part 5 - Navigation and Search](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part5.html)
-6. [Part 6 - Sling Models and Card Component](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part6.html)
+1. [Chapter 1 - Project Setup](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html)
+2. [Chapter 2 - Creating a Base Page and Template](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part2.html)
+3. [Chapter 3 - Client-Side Libraries and Responsive Grid](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part3.html)
+4. [Chapter 4 - Developing with the Style System](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part4.html)
+5. [Chapter 5 - Navigation and Search](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part5.html)
+6. [Chapter 6 - Creating a new AEM Component](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part6.html)
+7. [Chapter 7 - Teaser and Carousel Components](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part-7.html)
 
 ## Modules
 
@@ -30,6 +31,10 @@ To build all the modules run in the project root directory the following command
 If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
     mvn clean install -PautoInstallPackage
+
+Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe pubic repo with
+
+    mvn clean install -PautoInstallPackage -Padobe-public
     
 Or to deploy it to a publish instance, run
 
