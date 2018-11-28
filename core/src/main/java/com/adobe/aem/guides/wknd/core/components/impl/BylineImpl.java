@@ -1,20 +1,18 @@
 package com.adobe.aem.guides.wknd.core.components.impl;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.models.annotations.Model;
-import org.apache.sling.models.annotations.injectorspecific.OSGiService;
-import org.apache.sling.models.annotations.injectorspecific.ScriptVariable;
-import org.apache.sling.models.annotations.injectorspecific.Self;
-import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
-import org.apache.sling.models.factory.ModelFactory;
-import org.apache.sling.models.annotations.DefaultInjectionStrategy;
- 
 import java.util.Collections;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.OSGiService;
+import org.apache.sling.models.annotations.injectorspecific.Self;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
+import org.apache.sling.models.factory.ModelFactory;
 
 import com.adobe.aem.guides.wknd.core.components.Byline;
 import com.adobe.cq.wcm.core.components.models.Image;
@@ -41,16 +39,16 @@ public class BylineImpl implements Byline {
     @ValueMapValue
     private List<String> occupations;
     
-    @Override
-    public String getName() {
-        return name;
-    }
-    
     private Image image;
     
     @PostConstruct
     private void init() {
         image = modelFactory.getModelFromWrappedRequest(request, request.getResource(), Image.class);
+    }
+    
+    @Override
+    public String getName() {
+        return name;
     }
     
     @Override
