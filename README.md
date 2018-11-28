@@ -11,6 +11,7 @@ This is the code companion to a multi-part series on HelpX:
 5. [Chapter 5 - Navigation and Search](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part5.html)
 6. [Chapter 6 - Creating a new AEM Component](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part6.html)
 7. [Chapter 7 - Teaser and Carousel Components](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part7.html)
+7. [Chapter 8 - Unit Testing](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part8.html)
 
 ## Modules
 
